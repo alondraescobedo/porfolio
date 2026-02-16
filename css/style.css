@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Helvetica, sans-serif;
+    background-color: #415a77;
+}
+
+
+nav{
+    display: flex;
+    background-color: #1b263b;
+    width: 100%;
+    min-height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5rem;
+}
+
+h1{
+    color:#ffffff;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+li{
+    cursor: pointer;
+    font-size: 1rem;
+    color: #ffffff;
+}
+nav ul li a {
+    color: white;       
+    text-decoration: none; 
+}
+nav ul li a:hover {
+    color: #cccccc;          
+}
+
+section{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    color: #778da9;
+}
+
+.about{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    background-color: #778da9;
+    margin-top: 2rem;
+    border-radius: 20px;
+    padding: 8rem;
+}
+
+.container{
+    max-width: 600px;
+}
+
+h2{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #1b263b;
+}
+
+h3{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    opacity: 0.8;
+    color: #000000;
+}
+
+p{
+    font-size: 1rem;        
+    background: none;     
+    height: auto;
+    line-height: 1.6;
+    color: #355070;
+    display: flex;
+}
+
+
+img{
+    width: 80%;
+    max-width: 500px;      
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+
+.my-projects{
+    display: flex;
+    background-color: #e0e1dd;
+    margin-top: 2rem;
+    border-radius: 20px;
+    gap: 12rem;
+    align-items: center;
+    padding: 10rem;
+}
+
+.contact{
+    background-color: #778da9;
+    margin-top: 2rem;
+    border-radius: 20px;
+    gap: 4rem;
+    padding: 10rem;
+    
+}
+
+.social-media{
+    background-color: #e0e1dd;
+    margin-top: 2rem;
+    border-radius: 20px;
+    gap: 12rem;
+    padding: 10rem;
+}
+.pro-im{
+    width: 50%;
+    max-width: 500px;      
+    height: auto;
+    display: block;
+    border-radius: 8px;
+
+}
+
+.foo{
+    color: aliceblue;
+    font-size: 1rem;
+    gap: 12rem;
+    padding: 2rem;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+html {
+  scroll-behavior: smooth;
+}
