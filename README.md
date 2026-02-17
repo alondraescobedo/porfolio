@@ -4,3 +4,7 @@ For this project, I used basic web development tools to ensure a clean and funct
 HTML5: Semantic structure of the page.
 CSS: Custom styles, Flexbox for design, and animations with `@keyframes`.
 Git: Version control for development tracking.
+
+You can access to my sitio web here:
+https://alondraescobedo.github.io/porfolio/
+
